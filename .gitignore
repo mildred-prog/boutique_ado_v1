@@ -1,4 +1,27 @@
-venv/
-*.sqlite3
+# Environment variables
+.env
+env.py
+
+# Python
 *.pyc
 __pycache__/
+venv/
+
+# Database
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Local development settings
+local_settings.py
